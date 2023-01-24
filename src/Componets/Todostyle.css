@@ -1,0 +1,46 @@
+.todoList {
+  display: grid;
+  margin-top: 2vw;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 10vw 10vw 10vw;
+  column-gap: 10vw;
+  row-gap: 3vw;
+  
+}
+
+.List_data {
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn_delete {
+  height: 4vh;
+  width: 5.5vw;
+  margin-right: 5px;
+  background-color: #87382e;
+  color: white;
+}
+.btn_done {
+  height: 4vh;
+  width: 5.5vw;
+  background-color: #ab9f9d;
+}
+
+.btn_delete:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.btn_done:hover {
+  cursor: pointer;
+}
+
+.div_col {
+  /* border: 2px solid black; */
+  width: 15vw;
+  margin-top: 2%;
+  height: auto;
+  text-align: center;
+}
